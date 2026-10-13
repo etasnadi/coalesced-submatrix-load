@@ -1,0 +1,13 @@
+/build*/
+/logs/
+/reports/
+/__pycache__/
+*.py[cod]
+.DS_Store
+._*
+
+# Local cluster and Modal launchers.
+/run-worker.sh
+/worker_run.sh
+/modal_run.sh
+/modal_app.py
