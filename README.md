@@ -4,6 +4,8 @@ Small CUDA benchmark for comparing coalesced warp loads from strided `float`
 submatrices. It supports 8- and 16-thread groups, validates every result, and
 reports kernel runtime and useful bandwidth.
 
+![Coalesced submatrix load visualization](visualization.gif)
+
 ## Build
 
 Requirements: CUDA Toolkit with `nvcc` and an NVIDIA GPU. Set `CUDA_ARCH` to
